@@ -1,6 +1,6 @@
 import {createPlacedEncounter} from './enemy-placement.js?v=enemy-editor-1';
 import {RegionTitle} from './hud/region-title.js';
-import {RuinsLife,createRuinsEncounter} from './ruins-life.js?v=map-library-1';
+import {RuinsLife,createRuinsEncounter} from './ruins-life.js?v=enemy-editor-1';
 import {RuinsAudio} from './ruins-audio.js';
 import {WhisperingRuins} from './whispering-ruins.js?v=map-library-1';
 import {hitsShrine} from './hub/shrine-interaction.js';
@@ -22,7 +22,7 @@ import {ART} from './hub/layout.js';
 import {drawTrainingDummyBody} from './hub/training-art.js';
 import {SanctuaryHub} from './hub/hub.js?v=map-library-1';
 import {SecondSpells,SECOND_SPELLS,handleSecondSpellRequests} from './second-spells.js?v=progression-1';
-import {TrainingTargets} from './combat.js?v=progression-1';
+import {TrainingTargets} from './combat.js?v=enemy-editor-1';
 import {SpellAudio} from './audio.js?v=progression-1';
 import { CombatHud } from './hud/combat-hud.js?v=progression-1';
 import { createHudState } from './hud/state.js?v=progression-1';
@@ -69,7 +69,7 @@ const ruinsLife=new RuinsLife(),ruinsAudio=new RuinsAudio(),ruinsEncounter=creat
 const activeEncounter=()=>scene==='arena'?encounter:scene==='whispering-ruins'?ruinsEncounter:scene==='sanctuary'?sanctuaryEncounter:undefined;
 const hubs={sanctuary,arena,'whispering-ruins':ruins};
 const sceneNames={sanctuary:'Sanctuary',arena:'Rift Arena','whispering-ruins':'Whispering Ruins'};
-const encounter=createPlacedEncounter({map:{id:'arena',width:1800,height:1300,spawn:{x:900,y:1040}},terrainMove:(e,p)=>arena.move(e,p),fallback:new EnemyEncounter()});
+const encounter=createPlacedEncounter({map:{id:'arena',width:1800,height:1300,spawn:{x:900,y:650}},terrainMove:(e,p)=>arena.move(e,p),fallback:new EnemyEncounter()});
 const sanctuaryEncounter=createPlacedEncounter({map:{id:'sanctuary',width:1800,height:1300,spawn:{x:908.8,y:620.8}},terrainMove:(e,p)=>sanctuary.move(e,p,e.radius)});
 const requestedScene=new URLSearchParams(location.search).get('scene');
 let scene=Object.hasOwn(hubs,requestedScene)?requestedScene:'sanctuary';
@@ -210,7 +210,8 @@ function frame(now) {
   hudValues.currentMana=player.mana;hudValues.maxMana=player.maxMana;
   hud.ascend.element.title=player.progression.ascensionUnlocked?'Ascension system unlocked; transformations coming later':'Ascension unlocks at Level 10';
   if(new URLSearchParams(location.search).get('hudDebug')!=='1'){hudValues.currentHealth=player.health;hudValues.maxHealth=player.maxHealth;}
-  selector.disabled=!!player.progression.offer;if(session.role==='guest'||player.progression.offer)selector.value=player.element;
+  // Keep the guest’s selected input until the host processes it; older snapshots must not undo it.
+  selector.disabled=!!player.progression.offer;if(player.progression.offer)selector.value=player.element;
   if(profileReady)profileStore.save(player.progression);
   progressionHud.update(player,profileStore.status);
   const localDisplay=session.role==='guest'&&localActor.renderPosition?{...player,...localActor.renderPosition}:player;
