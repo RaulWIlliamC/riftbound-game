@@ -1,0 +1,1 @@
+Remove only the baked white/gray checkerboard, replacing it with true alpha transparency. Preserve all 31 Rift Seer poses, sizes, placement, pixel colors, robes, eyes, hands, crystal and spell effects. Keep the original 1254×1254 six-row layout. No redesign, extra poses or labels.

@@ -1,0 +1,11 @@
+{
+  "id": "sanctuary",
+  "name": "Sanctuary",
+  "width": 1800,
+  "height": 1300,
+  "renderer": "sanctuary",
+  "spawn": {
+    "x": 908.8,
+    "y": 620.8
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "frameSize": 64,
+  "columns": 6,
+  "rows": 6,
+  "groundAnchor": 60,
+  "sharedScale": 0.22,
+  "sourceEdges": [
+    0,
+    220,
+    430,
+    640,
+    852,
+    1054,
+    1254
+  ],
+  "footAnchors": [
+    133,
+    337,
+    545,
+    750,
+    958,
+    1160
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "baseline": 190
+    },
+    "move": {
+      "row": 1,
+      "frames": 6,
+      "baseline": 385
+    },
+    "fire": {
+      "row": 2,
+      "frames": 6,
+      "baseline": 590
+    },
+    "inferno": {
+      "row": 3,
+      "frames": 6,
+      "baseline": 803
+    },
+    "hit": {
+      "row": 4,
+      "frames": 3,
+      "baseline": 1008
+    },
+    "death": {
+      "row": 5,
+      "frames": 6,
+      "baseline": 1207
+    }
+  }
+}

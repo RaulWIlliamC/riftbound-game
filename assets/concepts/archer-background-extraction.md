@@ -1,0 +1,1 @@
+Remove only the baked white/gray checkerboard, replacing it with true alpha transparency. Preserve the 31 Archer poses, layout, pixel colors, flames, bows, arrows and embers. Keep the 1254×1254 six-row layout. No redesign or added frames.

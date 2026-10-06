@@ -1,0 +1,11 @@
+{
+  "id": "arena",
+  "name": "Rift Arena",
+  "width": 1800,
+  "height": 1300,
+  "renderer": "arena",
+  "spawn": {
+    "x": 900,
+    "y": 650
+  }
+}

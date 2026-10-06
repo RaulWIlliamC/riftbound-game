@@ -1,0 +1,274 @@
+[
+  {
+    "id": "fire-first-cast",
+    "seconds": 2.537,
+    "peak": 0.7926,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "fire-second-cast",
+    "seconds": 3.006,
+    "peak": 0.82,
+    "rms": 0.1535,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "fire-first-impact",
+    "seconds": 2.363,
+    "peak": 0.82,
+    "rms": 0.1697,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "fire-second-impact",
+    "seconds": 2.966,
+    "peak": 0.8161,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "fire-bolt-cast",
+    "seconds": 2.949,
+    "peak": 0.82,
+    "rms": 0.1306,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "fire-charge",
+    "seconds": 1.955,
+    "peak": 0.82,
+    "rms": 0.0873,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-first-cast",
+    "seconds": 2.978,
+    "peak": 0.82,
+    "rms": 0.0181,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-second-cast",
+    "seconds": 2.633,
+    "peak": 0.82,
+    "rms": 0.034,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-first-impact",
+    "seconds": 3.019,
+    "peak": 0.82,
+    "rms": 0.0275,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-second-impact",
+    "seconds": 2.706,
+    "peak": 0.82,
+    "rms": 0.0685,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-bolt-cast",
+    "seconds": 2.798,
+    "peak": 0.82,
+    "rms": 0.1637,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "earth-charge",
+    "seconds": 1.955,
+    "peak": 0.82,
+    "rms": 0.0877,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-first-cast",
+    "seconds": 0.582,
+    "peak": 0.82,
+    "rms": 0.1011,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-second-cast",
+    "seconds": 3.019,
+    "peak": 0.82,
+    "rms": 0.1567,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-first-impact",
+    "seconds": 0.897,
+    "peak": 0.82,
+    "rms": 0.131,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-second-impact",
+    "seconds": 2.974,
+    "peak": 0.7809,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-bolt-cast",
+    "seconds": 3.019,
+    "peak": 0.82,
+    "rms": 0.0868,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "water-charge",
+    "seconds": 1.955,
+    "peak": 0.758,
+    "rms": 0.11,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-first-cast",
+    "seconds": 2.194,
+    "peak": 0.82,
+    "rms": 0.1466,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-second-cast",
+    "seconds": 3.019,
+    "peak": 0.82,
+    "rms": 0.1577,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-first-impact",
+    "seconds": 1.808,
+    "peak": 0.82,
+    "rms": 0.0831,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-second-impact",
+    "seconds": 3.014,
+    "peak": 0.7379,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-bolt-cast",
+    "seconds": 2.343,
+    "peak": 0.82,
+    "rms": 0.1456,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "wind-charge",
+    "seconds": 1.955,
+    "peak": 0.4677,
+    "rms": 0.11,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-first-cast",
+    "seconds": 2.822,
+    "peak": 0.82,
+    "rms": 0.142,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-second-cast",
+    "seconds": 2.978,
+    "peak": 0.4677,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-first-impact",
+    "seconds": 2.223,
+    "peak": 0.82,
+    "rms": 0.1016,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-second-impact",
+    "seconds": 0.06,
+    "peak": 0.4484,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-bolt-cast",
+    "seconds": 1.209,
+    "peak": 0.82,
+    "rms": 0.1241,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "lightning-charge",
+    "seconds": 1.955,
+    "peak": 0.5785,
+    "rms": 0.11,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "neutral-bolt-cast",
+    "seconds": 2.555,
+    "peak": 0.82,
+    "rms": 0.1691,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "neutral-charge",
+    "seconds": 1.955,
+    "peak": 0.3505,
+    "rms": 0.11,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "neutral-bolt-impact",
+    "seconds": 1.208,
+    "peak": 0.6749,
+    "rms": 0.17,
+    "channels": 1,
+    "rate": 44100
+  },
+  {
+    "id": "staff-swing",
+    "seconds": 2.678,
+    "peak": 0.82,
+    "rms": 0.0619,
+    "channels": 1,
+    "rate": 44100
+  }
+]

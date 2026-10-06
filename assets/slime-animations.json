@@ -1,0 +1,39 @@
+{
+  "frameSize": 64,
+  "columns": 6,
+  "rows": 6,
+  "sharedScale": 0.2,
+  "groundAnchor": 60,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "baseline": 201
+    },
+    "move": {
+      "row": 1,
+      "frames": 6,
+      "baseline": 388
+    },
+    "bash": {
+      "row": 2,
+      "frames": 6,
+      "baseline": 598
+    },
+    "puddle": {
+      "row": 3,
+      "frames": 6,
+      "baseline": 830
+    },
+    "hit": {
+      "row": 4,
+      "frames": 3,
+      "baseline": 1028
+    },
+    "death": {
+      "row": 5,
+      "frames": 6,
+      "baseline": 1225
+    }
+  }
+}

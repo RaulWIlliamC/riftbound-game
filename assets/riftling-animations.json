@@ -1,0 +1,84 @@
+{
+  "source": "riftling-animations-source.png",
+  "frameSize": 64,
+  "columns": 8,
+  "rows": 6,
+  "sharedScale": 0.3404255319148936,
+  "sourceMaxContent": [
+    188,
+    137
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "sourceBoundaries": [
+        0,
+        181,
+        362,
+        543,
+        724
+      ]
+    },
+    "move": {
+      "row": 1,
+      "frames": 6,
+      "sourceBoundaries": [
+        0,
+        204,
+        385,
+        565,
+        744,
+        922,
+        1086
+      ]
+    },
+    "windup": {
+      "row": 2,
+      "frames": 4,
+      "sourceBoundaries": [
+        0,
+        181,
+        362,
+        543,
+        724
+      ]
+    },
+    "pounce": {
+      "row": 3,
+      "frames": 6,
+      "sourceBoundaries": [
+        0,
+        204,
+        396,
+        602,
+        776,
+        935,
+        1086
+      ]
+    },
+    "hit": {
+      "row": 4,
+      "frames": 3,
+      "sourceBoundaries": [
+        0,
+        181,
+        362,
+        543
+      ]
+    },
+    "death": {
+      "row": 5,
+      "frames": 6,
+      "sourceBoundaries": [
+        0,
+        190,
+        388,
+        560,
+        744,
+        924,
+        1086
+      ]
+    }
+  }
+}

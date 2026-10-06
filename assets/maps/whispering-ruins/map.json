@@ -1,0 +1,12 @@
+{
+  "id": "whispering-ruins",
+  "name": "Whispering Ruins",
+  "width": 4096,
+  "height": 4096,
+  "renderer": "whispering-ruins",
+  "collision": "collisions.json",
+  "spawn": {
+    "x": 1000,
+    "y": 1420
+  }
+}

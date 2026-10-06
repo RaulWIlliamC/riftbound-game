@@ -1,0 +1,206 @@
+[
+  {
+    "id": "fire-first-cast",
+    "loop": false,
+    "job_id": "2f1f1ad5a76d41d08fd757de5991c050",
+    "prompt": "a wizard's Flame Pillar igniting: forceful ascending furnace whoosh, roaring column of fire, sharp ember crackles and warm low-end punch"
+  },
+  {
+    "id": "fire-second-cast",
+    "loop": false,
+    "job_id": "7cab07466453444f88770f41d722cc7b",
+    "prompt": "a charged Inferno Orb launched from a staff: enormous compressed flame ignition, heavy fiery whoosh, menacing furnace roar"
+  },
+  {
+    "id": "fire-first-impact",
+    "loop": false,
+    "job_id": "3b46a1c574084383ac1409ee75a76078",
+    "prompt": "a magical fire column erupting at its destination: tight powerful combustion boom, roaring flames and scattering embers"
+  },
+  {
+    "id": "fire-second-impact",
+    "loop": false,
+    "job_id": "2e31a303550f4680859c1f2bc4025e4c",
+    "prompt": "a massive magical fireball exploding: deep explosive bass punch, wide fiery blast and falling sizzling embers"
+  },
+  {
+    "id": "fire-bolt-cast",
+    "loop": false,
+    "job_id": "534a1e51c07b4d9789e921a046e1ff39",
+    "prompt": "a small charged fire bolt launched: compact sharp flame whoosh and ember crackle"
+  },
+  {
+    "id": "fire-charge",
+    "loop": true,
+    "job_id": "ea02b3535b0b43ab93321ea99ef706e3",
+    "prompt": "contained magical fire gathering, steadily rolling furnace turbulence and warm ember crackles"
+  },
+  {
+    "id": "earth-first-cast",
+    "loop": false,
+    "job_id": "cd9e9883a9394493bb02283c7a312b34",
+    "prompt": "Stone Spikes bursting upward: three jagged stone pillars tearing through rock, weighty rocky grinding rise and granular debris"
+  },
+  {
+    "id": "earth-second-cast",
+    "loop": false,
+    "job_id": "0afd940f207e477da0575465cf9f9b98",
+    "prompt": "Stone Shard Barrage launched: a rapid volley of twelve sharp stone spears slicing air, staggered gritty whips and rumbling pressure"
+  },
+  {
+    "id": "earth-first-impact",
+    "loop": false,
+    "job_id": "079d67987a894b52858a1025b9d76788",
+    "prompt": "jagged stone spikes erupting from the ground: powerful deep rock slam, cracking stone plates and falling pebbles"
+  },
+  {
+    "id": "earth-second-impact",
+    "loop": false,
+    "job_id": "da4e7e5942a14320989570b595ed8a80",
+    "prompt": "a sharp stone spear striking solid rock: chunky crunch and brittle fracture with compact bass thud, one isolated impact"
+  },
+  {
+    "id": "earth-bolt-cast",
+    "loop": false,
+    "job_id": "9036b0e188eb4d13be8710dee22a35b0",
+    "prompt": "a charged stone bolt launched: dense rocky thump and short heavy air displacement with gravel shards"
+  },
+  {
+    "id": "earth-charge",
+    "loop": true,
+    "job_id": "a82808f5d1024490892bda0cea48dd16",
+    "prompt": "magical rocks gathering and levitating, deep seismic rumble with grinding stone and small rattling pebbles"
+  },
+  {
+    "id": "water-first-cast",
+    "loop": false,
+    "job_id": "2e912f2bd177498390b8f9c25ee1bac0",
+    "prompt": "an Ice Lance launched: a sharp crystalline ice spear forming and piercing the air with a cold slicing whistle and brittle glassy ice textures"
+  },
+  {
+    "id": "water-second-cast",
+    "loop": false,
+    "job_id": "fb7a053fa67f4c20a881761965c3494c",
+    "prompt": "Surging Wave launched: a huge ocean wave rushing forward, thick rolling water, whitewater foam and a weighty surging whoosh"
+  },
+  {
+    "id": "water-first-impact",
+    "loop": false,
+    "job_id": "0673f7804a07478ba9b1e3dafbede08e",
+    "prompt": "a magical ice lance striking: sharp crystalline ice shatter, brittle cracking and cold ringing shards with tight impact"
+  },
+  {
+    "id": "water-second-impact",
+    "loop": false,
+    "job_id": "c7290dc6e02544188354d87d6c2f6914",
+    "prompt": "a gigantic wave crashing: powerful broad water slam, heavy turbulent splash and falling droplets"
+  },
+  {
+    "id": "water-bolt-cast",
+    "loop": false,
+    "job_id": "0640b1eb86314699a8e9f600a992b827",
+    "prompt": "a charged water bolt launched: tight pressurized liquid whoosh and bright watery splash"
+  },
+  {
+    "id": "water-charge",
+    "loop": true,
+    "job_id": "e5ecaba1de73413db6de12f13e731ce7",
+    "prompt": "magical water gathering into a sphere, swirling pressurized liquid and delicate bubbling with a low resonant hum"
+  },
+  {
+    "id": "wind-first-cast",
+    "loop": false,
+    "job_id": "d5668a41da934d9d86f53bc8c4e142a6",
+    "prompt": "Wind Blade released: razor-sharp compressed air slash, fast clean cutting gust and airy pressure snap"
+  },
+  {
+    "id": "wind-second-cast",
+    "loop": false,
+    "job_id": "ea242f447d804a739527117efbeb0a22",
+    "prompt": "Cyclone Grip active release: a violent vortex expelling captured objects, huge spiraling wind surge and a compressed-air blast"
+  },
+  {
+    "id": "wind-first-impact",
+    "loop": false,
+    "job_id": "40d6806f55f2436195bb65306bf3762e",
+    "prompt": "a razor wind blade striking: sharp air whip crack and compact pressure thud, fast dissipating gust"
+  },
+  {
+    "id": "wind-second-impact",
+    "loop": false,
+    "job_id": "467d1ddfbb284d64b907d696987a74c1",
+    "prompt": "a cyclone bursting outward: deep pressure boom and wide powerful wind rush, swirling debris fading away"
+  },
+  {
+    "id": "wind-bolt-cast",
+    "loop": false,
+    "job_id": "18eac46a76c8448b8f3d58bb48abc90b",
+    "prompt": "a charged air bolt launched: quick compressed-air snap and tightly focused airy swoosh"
+  },
+  {
+    "id": "wind-charge",
+    "loop": true,
+    "job_id": "b6c43c3416604fe59cfc59a779ad7833",
+    "prompt": "a magical cyclone held under pressure, deep rotating wind, airy spiraling turbulence and pulsing low resonance"
+  },
+  {
+    "id": "lightning-first-cast",
+    "loop": false,
+    "job_id": "814ee70fe9834f2892d98f8d9e478318",
+    "prompt": "Thunder Strike summoned: violent electric ignition and a sharp electrical whip leading to rolling thunder, instant decisive crack"
+  },
+  {
+    "id": "lightning-second-cast",
+    "loop": false,
+    "job_id": "09e8812464334d83b6b58562f24dba99",
+    "prompt": "Lightning Dragon summoned: a colossal serpentine electrical dragon roaring through crackling arcs, layered electric growl and thunderous surge"
+  },
+  {
+    "id": "lightning-first-impact",
+    "loop": false,
+    "job_id": "caf14259a32a47a399c67705af260987",
+    "prompt": "a lightning strike hitting stone: explosive sharp electric crack and powerful low thunder decay with tiny electrical fizz"
+  },
+  {
+    "id": "lightning-second-impact",
+    "loop": false,
+    "job_id": "2b7b79eb59f548a3bcf94814b1e5062a",
+    "prompt": "a lightning dragon chain impact: layered snapping arcs, roaring electrical discharge and deep thunder pulse"
+  },
+  {
+    "id": "lightning-bolt-cast",
+    "loop": false,
+    "job_id": "b8aeaec07d904b3dab6fe34c51f25fff",
+    "prompt": "a charged lightning bolt released: fast snappy electric zap with a compact crack and fizz"
+  },
+  {
+    "id": "lightning-charge",
+    "loop": true,
+    "job_id": "75f2f85c428c4cfdb3c4bcae75cc2aeb",
+    "prompt": "magical lightning gathering, restrained electrical arcs, vibrating energy buzz and intermittent fine crackles"
+  },
+  {
+    "id": "neutral-bolt-cast",
+    "loop": false,
+    "job_id": "f57f4de41fa84fb1885d32d8efe1478b",
+    "prompt": "a wizard releasing a charged arcane bolt: resonant magical pulse, airy energy whoosh and compact low-end punch"
+  },
+  {
+    "id": "neutral-charge",
+    "loop": true,
+    "job_id": "34ab5e26d2a743dcacf7f4e331cb36e9",
+    "prompt": "arcane magic gathering into a staff orb, deep ethereal energy hum with shimmering overtones, a sound effect without a melody"
+  },
+  {
+    "id": "neutral-bolt-impact",
+    "loop": false,
+    "job_id": "3991c1481d4148fc8ac8cb3b8fe42244",
+    "prompt": "a magical arcane bolt hitting: a short resonant energy crack with a solid low thump and sparkling magical decay"
+  },
+  {
+    "id": "staff-swing",
+    "loop": false,
+    "job_id": "6e844adc358f49d6a69f5a8b71377137",
+    "prompt": "a wooden wizard staff swung quickly through air: a short crisp physical swish with a subtle low weighted whoosh, one isolated swing"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "frameSize": 96,
+  "columns": 8,
+  "rows": 6,
+  "sharedScale": 0.3,
+  "groundAnchor": 92,
+  "sourceRows": [
+    0,
+    195,
+    354,
+    566,
+    770,
+    935,
+    1086
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "sourceEdges": [
+        0,
+        212,
+        410,
+        609,
+        810
+      ],
+      "footAnchors": [
+        135,
+        335,
+        529,
+        731
+      ],
+      "baseline": 175
+    },
+    "move": {
+      "row": 1,
+      "frames": 6,
+      "sourceEdges": [
+        0,
+        236,
+        474,
+        721,
+        955,
+        1191,
+        1448
+      ],
+      "footAnchors": [
+        140,
+        383,
+        619,
+        866,
+        1095,
+        1328
+      ],
+      "baseline": 353
+    },
+    "windup": {
+      "row": 2,
+      "frames": 6,
+      "sourceEdges": [
+        0,
+        234,
+        494,
+        716,
+        942,
+        1185,
+        1448
+      ],
+      "footAnchors": [
+        138,
+        384,
+        612,
+        850,
+        1090,
+        1330
+      ],
+      "baseline": 557
+    },
+    "slam": {
+      "row": 3,
+      "frames": 6,
+      "sourceEdges": [
+        0,
+        264,
+        492,
+        711,
+        988,
+        1215,
+        1448
+      ],
+      "footAnchors": [
+        142,
+        374,
+        610,
+        806,
+        1100,
+        1328
+      ],
+      "baseline": 749
+    },
+    "hit": {
+      "row": 4,
+      "frames": 2,
+      "sourceEdges": [
+        0,
+        240,
+        480
+      ],
+      "footAnchors": [
+        142,
+        371
+      ],
+      "baseline": 919
+    },
+    "death": {
+      "row": 5,
+      "frames": 6,
+      "sourceEdges": [
+        0,
+        222,
+        444,
+        650,
+        860,
+        1050,
+        1250
+      ],
+      "footAnchors": [
+        129,
+        335,
+        545,
+        749,
+        945,
+        1150
+      ],
+      "baseline": 1066
+    }
+  }
+}

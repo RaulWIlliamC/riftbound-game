@@ -1,0 +1,329 @@
+{
+  "columns": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "sharedScale": 0.75,
+  "minimumPadding": 24,
+  "frames": [
+    {
+      "row": 0,
+      "frame": 0,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 1,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 2,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 3,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 4,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 5,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 6,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 0,
+      "frame": 7,
+      "contentSlot": [
+        45,
+        38,
+        166,
+        180
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 0,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 1,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 2,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 3,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 4,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 5,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 6,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 1,
+      "frame": 7,
+      "contentSlot": [
+        45,
+        46,
+        166,
+        165
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 0,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 1,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 2,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 3,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 4,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 5,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 6,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 2,
+      "frame": 7,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        161
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 0,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 1,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 2,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 3,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 4,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 5,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 6,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    },
+    {
+      "row": 3,
+      "frame": 7,
+      "contentSlot": [
+        45,
+        48,
+        166,
+        159
+      ]
+    }
+  ]
+}

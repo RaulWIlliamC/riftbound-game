@@ -1,0 +1,33 @@
+/* Exploration keeps the forest in focus; controls occupy the edges of the view. */
+body[data-scene='whispering-ruins']{--ruins-ink:#111c20;--ruins-gold:#c3aa76;--ruins-type:#eee7d6;--ruins-muted:#bcc8bc}
+body[data-scene='whispering-ruins'] .label{top:22px;left:24px;padding:15px 18px;background:#111c20ed;border-bottom:1px solid #b7a07865;max-width:calc(100vw - 48px)}
+body[data-scene='whispering-ruins'] .label h1{font-size:11px;letter-spacing:3px;color:var(--ruins-gold);margin-bottom:7px}
+body[data-scene='whispering-ruins'] .subtitle{font-size:15px;letter-spacing:1px;color:var(--ruins-type)}
+body[data-scene='whispering-ruins'] #multiplayer{left:24px;top:104px;width:180px;padding:8px 12px;background:#111c20ed;border:0;border-bottom:1px solid #b7a07865;box-shadow:none;border-radius:0}
+body[data-scene='whispering-ruins'] #multiplayer[open]{width:290px}
+body[data-scene='whispering-ruins'] #multiplayer summary{font-size:10px;letter-spacing:.5px}
+body[data-scene='whispering-ruins'] #network-status{font-size:9px;color:var(--ruins-muted)}
+body[data-scene='whispering-ruins'] #state{top:25px;right:24px;padding:8px 11px;background:#111c20ed;color:var(--ruins-muted);font-size:10px}
+body[data-scene='whispering-ruins'] .appearance{top:66px;right:24px;color:var(--ruins-type);font-size:10px;text-shadow:0 2px 3px #000}
+body[data-scene='whispering-ruins'] .appearance select{background:var(--ruins-ink);border-color:#74837b;color:var(--ruins-type)}
+body[data-scene='whispering-ruins'] #sound-toggle{top:106px;right:24px;background:var(--ruins-ink);border-color:#74837b;color:var(--ruins-muted)}
+body[data-scene='whispering-ruins'] .combat-hud{width:390px;display:grid;grid-template-columns:158px 1fr;gap:5px 16px;align-items:center;bottom:20px;padding:13px 16px;background:#111c20f5;border-top:1px solid #b7a07899;box-shadow:0 6px 20px #0005;max-width:calc(100vw - 32px)}
+body[data-scene='whispering-ruins'] .ability-bar{grid-row:1 / 3;gap:7px;margin:0}
+body[data-scene='whispering-ruins'] .ability-slot{width:48px;height:50px;background:#1b2b2d;border-color:#87958b;box-shadow:none}
+body[data-scene='whispering-ruins'] .ability-icon{width:27px;height:27px;top:6px;left:10px}
+body[data-scene='whispering-ruins'] .hud-resources{gap:6px;margin:0}
+body[data-scene='whispering-ruins'] .resource-meter{height:14px;border-color:#6a7b72;box-shadow:none}
+body[data-scene='whispering-ruins'] .ascend-track{height:4px;padding:0;border:0;background:#334345;box-shadow:none}
+body[data-scene='whispering-ruins'] .ascend-caption{font-size:8px;letter-spacing:.6px;color:var(--ruins-muted);margin-top:5px}
+body[data-scene='whispering-ruins'] .progression-hud{left:auto;right:24px;bottom:24px;transform:none;width:180px;text-align:right;padding:12px;background:#111c20ed;border-bottom:1px solid #b7a07865}
+body[data-scene='whispering-ruins'] .character-toggle{background:none;border:0;padding:0 0 8px;margin:0;color:var(--ruins-type);font-size:10px}
+body[data-scene='whispering-ruins'] .xp-caption{color:var(--ruins-muted);font-size:9px}
+body[data-scene='whispering-ruins'] .xp-track{border:0;height:3px;background:#394747}
+body[data-scene='whispering-ruins'] .xp-fill{background:var(--ruins-gold)}
+body[data-scene='whispering-ruins'] .level-feedback{left:auto;right:0;bottom:84px;transform:none;padding:7px;background:#111c20ed;width:230px}
+body[data-scene='whispering-ruins'] .level-feedback:empty{display:none}
+body[data-scene='whispering-ruins'] #arena-return{left:24px;top:auto;bottom:24px;padding:11px 14px;background:#111c20ed;border:0;border-bottom:1px solid #b7a07865;color:var(--ruins-type);font-size:10px}
+body[data-scene='whispering-ruins'] button:focus-visible,body[data-scene='whispering-ruins'] summary:focus-visible{outline:2px solid #e2c98f;outline-offset:4px}
+body[data-scene='whispering-ruins'] .character-toggle:hover{color:#e2c98f}
+@media(max-width:850px){body[data-scene='whispering-ruins'] .progression-hud{bottom:118px;width:155px}body[data-scene='whispering-ruins'] #arena-return{bottom:118px}}
+@media(max-width:520px){body[data-scene='whispering-ruins'] .label{left:12px;top:12px;padding:12px;max-width:calc(100vw - 135px)}body[data-scene='whispering-ruins'] .subtitle{font-size:11px;letter-spacing:0}body[data-scene='whispering-ruins'] #multiplayer{left:12px;top:86px;width:158px}body[data-scene='whispering-ruins'] #state{right:12px;top:12px;font-size:8px}body[data-scene='whispering-ruins'] .appearance{right:12px;top:47px;font-size:0}body[data-scene='whispering-ruins'] .appearance select{font-size:10px}body[data-scene='whispering-ruins'] #sound-toggle{right:12px;top:88px}body[data-scene='whispering-ruins'] .combat-hud{bottom:12px;padding:10px;grid-template-columns:158px 1fr;gap:4px 9px}body[data-scene='whispering-ruins'] .progression-hud{right:12px;bottom:112px;padding:8px;width:140px}body[data-scene='whispering-ruins'] #arena-return{left:12px;bottom:112px;padding:11px 8px;font-size:9px}}

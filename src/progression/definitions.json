@@ -1,0 +1,531 @@
+{
+  "ATTRIBUTES": {
+    "vitality": "Maximum health",
+    "arcana": "Spell damage",
+    "focus": "Maximum mana / regeneration",
+    "agility": "Dash recovery / movement",
+    "control": "Ability recovery / charge speed",
+    "resilience": "Damage reduction / slow resistance"
+  },
+  "CARDS": [
+    {
+      "id": "spellcraft",
+      "name": "Spellcraft",
+      "category": "SPELL",
+      "rarity": "common",
+      "icon": "\u2726",
+      "description": "Spell damage +4%.",
+      "mods": {
+        "damage": 0.04
+      },
+      "max": 3
+    },
+    {
+      "id": "wide-runes",
+      "name": "Wide Runes",
+      "category": "SPELL",
+      "rarity": "common",
+      "icon": "\u25ce",
+      "description": "Spell radius +5%.",
+      "mods": {
+        "radius": 0.05
+      },
+      "max": 3
+    },
+    {
+      "id": "swift-casting",
+      "name": "Swift Casting",
+      "category": "SPELL",
+      "rarity": "uncommon",
+      "icon": "\u00bb",
+      "description": "Charge and cast speed +5%.",
+      "mods": {
+        "charge": 0.05
+      },
+      "max": 3
+    },
+    {
+      "id": "swift-projectiles",
+      "name": "Swift Projectiles",
+      "category": "SPELL",
+      "rarity": "common",
+      "icon": "\u27b6",
+      "description": "Projectile speed +6%.",
+      "mods": {
+        "speed": 0.06
+      },
+      "max": 3
+    },
+    {
+      "id": "lasting-runes",
+      "name": "Lasting Runes",
+      "category": "SPELL",
+      "rarity": "uncommon",
+      "icon": "\u25f7",
+      "description": "Field duration +4%.",
+      "mods": {
+        "duration": 0.04
+      },
+      "max": 2
+    },
+    {
+      "id": "sturdy",
+      "name": "Sturdy Frame",
+      "category": "BODY",
+      "rarity": "common",
+      "icon": "\u2665",
+      "description": "Maximum HP +10.",
+      "mods": {
+        "hp": 10
+      },
+      "max": 3
+    },
+    {
+      "id": "light-foot",
+      "name": "Light Foot",
+      "category": "BODY",
+      "rarity": "uncommon",
+      "icon": "\u00bb",
+      "description": "Movement +1%; dash recovery 5% faster.",
+      "mods": {
+        "movement": 0.01,
+        "dash": 0.05
+      },
+      "max": 2
+    },
+    {
+      "id": "mana-vessel",
+      "name": "Mana Vessel",
+      "category": "MANA",
+      "rarity": "common",
+      "icon": "\u25c6",
+      "description": "Maximum mana +15; regeneration +0.5/s.",
+      "mods": {
+        "mana": 15,
+        "regen": 0.5
+      },
+      "max": 3
+    },
+    {
+      "id": "efficient",
+      "name": "Efficient Weaving",
+      "category": "MANA",
+      "rarity": "uncommon",
+      "icon": "\u25c7",
+      "description": "Ability mana cost reduced by 5%.",
+      "mods": {
+        "cost": 0.05
+      },
+      "max": 3
+    },
+    {
+      "id": "recovery",
+      "name": "Measured Recovery",
+      "category": "SPELL",
+      "rarity": "uncommon",
+      "icon": "\u21bb",
+      "description": "Ability cooldowns reduced by 4%.",
+      "mods": {
+        "cooldown": 0.04
+      },
+      "max": 3
+    },
+    {
+      "id": "second-wind",
+      "name": "Second Wind",
+      "category": "RARE",
+      "rarity": "rare",
+      "icon": "\u00bb",
+      "description": "Gain one additional dash charge. Charges recover one at a time.",
+      "mods": {
+        "dashCharges": 1
+      },
+      "max": 1
+    },
+    {
+      "id": "arcane-recovery",
+      "name": "Arcane Recovery",
+      "category": "RARE",
+      "rarity": "rare",
+      "icon": "\u2727",
+      "description": "Participating in an enemy kill restores 8 mana.",
+      "mods": {
+        "killMana": 8
+      },
+      "max": 1,
+      "requires": [
+        "mana-vessel"
+      ]
+    },
+    {
+      "id": "conductive-current",
+      "name": "Conductive Current",
+      "category": "ELEMENT",
+      "rarity": "uncommon",
+      "element": "lightning",
+      "icon": "\u03df",
+      "description": "Lightning extends existing Wet by 0.75s (once per target per cast).",
+      "mods": {
+        "conductive": 0.75
+      },
+      "max": 1
+    },
+    {
+      "id": "tide-memory",
+      "name": "Tide Memory",
+      "category": "ELEMENT",
+      "rarity": "uncommon",
+      "element": "water",
+      "icon": "\u2248",
+      "description": "Applied Wet lasts 20% longer.",
+      "mods": {
+        "status": 0.2
+      },
+      "max": 1
+    },
+    {
+      "id": "ember-memory",
+      "name": "Ember Memory",
+      "category": "ELEMENT",
+      "rarity": "uncommon",
+      "element": "fire",
+      "icon": "\u2668",
+      "description": "Applied burn lasts 15% longer.",
+      "mods": {
+        "status": 0.15
+      },
+      "max": 1
+    },
+    {
+      "id": "stone-discipline",
+      "name": "Stone Discipline",
+      "category": "ELEMENT",
+      "rarity": "uncommon",
+      "element": "earth",
+      "icon": "\u2b21",
+      "description": "Earth spell charge speed +8%.",
+      "mods": {
+        "charge": 0.08
+      },
+      "max": 1
+    },
+    {
+      "id": "air-discipline",
+      "name": "Air Discipline",
+      "category": "ELEMENT",
+      "rarity": "uncommon",
+      "element": "wind",
+      "icon": "\u224b",
+      "description": "Wind projectiles +8% speed; fields +4% radius.",
+      "mods": {
+        "speed": 0.08,
+        "radius": 0.04
+      },
+      "max": 1
+    }
+  ],
+  "CONFIG": {
+    "levelCap": 30,
+    "xp": {
+      "base": 100,
+      "linear": 35,
+      "quadratic": 8,
+      "rewards": {
+        "riftling": 8,
+        "guardian": 20,
+        "slime": 12,
+        "archer": 12,
+        "seer": 16,
+        "sentinel": 90,
+        "mossImp": 8,
+        "runeWisp": 9,
+        "mossGuardian": 14
+      },
+      "enemyLevels": {
+        "riftling": 1,
+        "guardian": 2,
+        "slime": 3,
+        "archer": 3,
+        "seer": 4,
+        "sentinel": 5,
+        "mossImp": 1,
+        "runeWisp": 1,
+        "mossGuardian": 2
+      },
+      "area": 45,
+      "firstClear": 100,
+      "areaLevel": 5,
+      "participation": 0.03,
+      "underlevelGrace": 3,
+      "underlevelDecay": 0.18,
+      "minimumMultiplier": 0.08
+    },
+    "unlocks": {
+      "1": 1,
+      "2": 3,
+      "3": 5,
+      "ascension": 10
+    },
+    "cardLevels": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30
+    ],
+    "rarityWeights": {
+      "common": 10,
+      "uncommon": 4,
+      "rare": 1
+    },
+    "base": {
+      "hp": 100,
+      "mana": 200,
+      "regen": 8
+    },
+    "caps": {
+      "damage": 1.75,
+      "cooldownReduction": 0.3,
+      "dashReduction": 0.4,
+      "movement": 1.08,
+      "charge": 1.35,
+      "radius": 1.3,
+      "duration": 1.25,
+      "projectile": 1.3,
+      "manaReduction": 0.35,
+      "resilience": 0.2,
+      "statusResistance": 0.3,
+      "statusDuration": 1.35
+    },
+    "attributes": {
+      "vitality": {
+        "hp": 6
+      },
+      "arcana": {
+        "damage": 0.45,
+        "knee": 24
+      },
+      "focus": {
+        "mana": 7,
+        "regen": 0.1
+      },
+      "agility": {
+        "dash": 0.35,
+        "knee": 16,
+        "movementStep": 10,
+        "movementBonus": 0.01
+      },
+      "control": {
+        "cooldown": 0.25,
+        "knee": 20,
+        "charge": 0.25
+      },
+      "resilience": {
+        "reduction": 0.18,
+        "knee": 20,
+        "status": 0.25
+      }
+    },
+    "manaCosts": {
+      "0": 0,
+      "1": 18,
+      "2": 35,
+      "3": 65
+    },
+    "actionManaCosts": {
+      "dash": 20,
+      "fullyChargedM1": 15
+    },
+    "killMana": 8,
+    "secondDashCooldown": 1
+  },
+  "ELEMENTS": [
+    "fire",
+    "earth",
+    "water",
+    "lightning",
+    "wind"
+  ],
+  "ENHANCEMENTS": {
+    "fire": [
+      {
+        "burn": {
+          "duration": 2,
+          "dps": 2
+        }
+      },
+      {
+        "burnExtra": 1
+      },
+      {
+        "impactRadius": 1.1
+      }
+    ],
+    "earth": [
+      {
+        "slow": {
+          "duration": 1.5,
+          "scale": 0.85
+        }
+      },
+      {
+        "hitWidth": 1.15
+      },
+      {
+        "pull": 1.15
+      }
+    ],
+    "water": [
+      {
+        "wet": true
+      },
+      {
+        "push": 1.15
+      },
+      {
+        "wetSlow": 0.3
+      }
+    ],
+    "lightning": [
+      {
+        "wetExtend": 1
+      },
+      {
+        "extraChain": 1,
+        "extraChainDamage": 10
+      },
+      {
+        "wetExtend": 0.5
+      }
+    ],
+    "wind": [
+      {
+        "pushSpeed": 75
+      },
+      {
+        "captureExtra": 1
+      },
+      {
+        "pull": 1.15
+      }
+    ]
+  },
+  "FINISHERS": {
+    "fire": [
+      "Ignites targets for 2 damage/s over 2s",
+      "Burn lasts 1 second longer",
+      "Final meteor has 10% more impact radius"
+    ],
+    "earth": [
+      "Slows targets by 15% for 1.5s",
+      "Shards gain 15% hit width",
+      "Stone pull is 15% stronger"
+    ],
+    "water": [
+      "Applies Wet on hit",
+      "Wave pushes 15% harder",
+      "Whirlpool slows by an extra 5%"
+    ],
+    "lightning": [
+      "Extends existing Wet by 1 second",
+      "Chains to one additional enemy for 10 damage",
+      "Strikes extend existing Wet by 0.5s"
+    ],
+    "wind": [
+      "Pushes ordinary targets slightly",
+      "Captures one additional enemy",
+      "Inward pull is 15% stronger"
+    ]
+  },
+  "RANKS": [
+    {
+      "damage": 1,
+      "radius": 1,
+      "duration": 1,
+      "cost": 1,
+      "charge": 1,
+      "speed": 1,
+      "status": 1
+    },
+    {
+      "damage": 1.07,
+      "radius": 1.04,
+      "duration": 1,
+      "cost": 0.97,
+      "charge": 1.03,
+      "speed": 1.03,
+      "status": 1
+    },
+    {
+      "damage": 1.15,
+      "radius": 1.08,
+      "duration": 1.03,
+      "cost": 0.94,
+      "charge": 1.06,
+      "speed": 1.06,
+      "status": 1.04
+    },
+    {
+      "damage": 1.23,
+      "radius": 1.12,
+      "duration": 1.06,
+      "cost": 0.91,
+      "charge": 1.09,
+      "speed": 1.09,
+      "status": 1.08
+    },
+    {
+      "damage": 1.32,
+      "radius": 1.16,
+      "duration": 1.1,
+      "cost": 0.88,
+      "charge": 1.12,
+      "speed": 1.12,
+      "status": 1.12
+    }
+  ],
+  "RANK_LABELS": [
+    "Base",
+    "I",
+    "II",
+    "III",
+    "IV"
+  ],
+  "SPELL_NAMES": {
+    "fire": [
+      "Flame Pillar",
+      "Inferno Orb",
+      "Meteor Shower"
+    ],
+    "earth": [
+      "Stone Spikes",
+      "Stone Shard Barrage",
+      "Stone Collapse"
+    ],
+    "water": [
+      "Ice Lance",
+      "Surging Wave",
+      "Shark Whirlpool"
+    ],
+    "lightning": [
+      "Thunder Strike",
+      "Lightning Dragon",
+      "Thunderstorm"
+    ],
+    "wind": [
+      "Wind Blade",
+      "Cyclone Grip",
+      "Tempest Blades"
+    ]
+  }
+}

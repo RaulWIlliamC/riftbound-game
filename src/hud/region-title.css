@@ -1,0 +1,12 @@
+@font-face{font-family:RuinsCinzel;src:url('../../assets/fonts/cinzel.ttf') format('truetype');font-weight:400 900;font-display:swap}
+.region-title{--arrival-ivory:#fff1d2;--arrival-gold:#d8ba7b;position:fixed;z-index:35;top:clamp(78px,11vh,116px);left:50%;transform:translateX(-50%);width:min(720px,calc(100vw - 48px));text-align:center;pointer-events:none;user-select:none;color:var(--arrival-ivory);padding:18px 20px 23px;box-sizing:border-box;isolation:isolate}
+.region-title[hidden]{display:none}
+.region-title::before{content:'';position:absolute;inset:-20px -45px;z-index:-1;background:radial-gradient(ellipse,#08191fbd 0%,#08191f66 42%,transparent 72%)}
+.region-title-kicker{display:block;font:500 10px/1.4 RuinsCinzel,serif;letter-spacing:.32em;text-transform:uppercase;color:var(--arrival-gold);text-shadow:0 2px 8px #000;margin-bottom:10px}
+.region-title-name{font:500 clamp(27px,3.7vw,48px)/1.2 RuinsCinzel,serif;letter-spacing:.085em;text-transform:uppercase;margin:0;text-wrap:balance;text-shadow:0 2px 3px #0b151b,0 0 18px #07151d,0 0 38px #0008}
+.region-title-ornament{position:relative;display:block;width:clamp(130px,22vw,270px);height:1px;margin:19px auto 0;background:linear-gradient(90deg,transparent,var(--arrival-gold) 38%,transparent 48%,transparent 52%,var(--arrival-gold) 62%,transparent)}
+.region-title-ornament::after{content:'';position:absolute;width:6px;height:6px;left:50%;top:50%;border:1px solid var(--arrival-gold);transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 9px #d8ba7b44}
+.region-title.is-visible{animation:region-arrival 4.4s both}
+@keyframes region-arrival{0%{opacity:0;translate:0 -9px}14%,72%{opacity:1;translate:0 0}100%{opacity:0;translate:0 -3px}}
+@media(max-width:700px){.region-title{top:145px;width:calc(100vw - 24px);padding:12px 10px 18px}.region-title-name{font-size:clamp(23px,5.2vw,34px);letter-spacing:.05em}.region-title-kicker{font-size:9px;margin-bottom:8px}}
+@media(prefers-reduced-motion:reduce){.region-title.is-visible{animation-name:region-arrival-still}@keyframes region-arrival-still{0%{opacity:0}14%,72%{opacity:1}100%{opacity:0}}}
